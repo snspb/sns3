@@ -822,3 +822,8 @@ footer {
     width: 90px;
   }
 }
+@media only screen and (max-width: 430px) {
+  .skill-box1 .img{
+    z-index=-1;
+  }
+}
