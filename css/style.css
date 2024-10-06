@@ -471,10 +471,7 @@ h1 {
   padding-top: 50px;
   height: 100dvh;
 }
-/* .continer2-inside {
-  display: flex;
-  justify-content: center;
-} */
+
 .skill-box1 img {
   padding: 20px 0 0 90px;
   width: 500px;
@@ -486,14 +483,14 @@ h1 {
   display: flex;
 }
 .insidebox ul li {
-  color: black;
+  color: white;
 }
 
 .insidebox {
-  width: 130px;
-  height: 420px;
+  width: 170px;
+  height: 300px;
   text-align: center;
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
   background-color: rgba(172, 255, 47, 0.359);
   -webkit-animation-name: floating;
   animation-name: floating;
@@ -603,12 +600,10 @@ h1 {
   width: 380px;
 }
 .link {
-  color: black;
+  color: white;
   padding: 10px 0 10px 0;
 }
-.link:hover {
-  color: white;
-}
+
 .project-links {
   width: 600px;
   height: 300px;
@@ -823,7 +818,7 @@ footer {
   }
 }
 @media only screen and (max-width: 430px) {
-  .skill-box1 img{
-    z-index:-1;
+  .skill-box1 img {
+    z-index: -1;
   }
 }
